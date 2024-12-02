@@ -188,8 +188,8 @@ label_frame.grid(row=2, column=0, columnspan=4, pady=20)
 
 ttk.Button(button_frame, text="Add Task", command=add_task_dialog, width=20).grid(row=0, column=0, padx=10, pady=10)
 ttk.Button(button_frame, text="Mark as Complete", command=mark_task_complete, width=20).grid(row=0, column=1, padx=10, pady=10)
-ttk.Button(button_frame, text="Completed Tasks", command=view_completed_tasks, width=20).grid(row=0, column=2, padx=10, pady=10)
-ttk.Button(button_frame, text="Delete Task", command=delete_task, width=20).grid(row=0, column=3, padx=10, pady=10)
+ttk.Button(button_frame, text="Completed Tasks", command=view_completed_tasks, width=20).grid(row=0, column=3, padx=10, pady=10)
+ttk.Button(button_frame, text="Delete Task", command=delete_task, width=20).grid(row=0, column=2, padx=10, pady=10)
 ttk.Label(label_frame,text='Developed by Ishara Madusanka #fun_project :)').grid(row=0, column=3, padx=10, pady=5)
 
 
